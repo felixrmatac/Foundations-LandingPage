@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container-header {
+    padding-top: 20px;
+    background-color: rgb(106, 165, 216);
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-header ul {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    list-style-type: none;
+
+}
+
+.container-header ul li a {
+    column-rule-color: blue;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.container-header img {
+    padding: 15px;
+
+}
+
+.container-sign-up {
+    background-color: rgb(106, 165, 216);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.container-sign-up .container-latest-text {
+    align-content: center;
+}
+
+.container-sign-up .container-latest-text button{
+    align-self: flex-end;
+}
+
+
+#tomato-photo {
+    height: 300px;
+}
+
+.latest-post-header {
+    font-size: 32px;
+    display: flex;
+    margin: 60px;
+    justify-content: center;
+}
+
+.container-latest-post {
+    display: flex;
+    gap: 75px;
+    justify-content: center;
+    border: 5px;
+    border-color: blue;
+    margin-bottom: 60px;
+}
+
+.container-latest-post p {
+    margin-top: 20px;
+    width: 150px;
+    text-align: center;
+}
+
+.container-latest-post img {
+    height: 250px;
+    width: 150px;
+    border-radius: 5%;
+}
+
+.quote{
+    height: 200px;
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      
+}
+
+#quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    
+
+}
+#citation{
+    font-weight: bold;
+    font-size: 24px;
+    align-self: flex-end;
+     
+}
+
+.cont{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.call_to_action{
+    background-color: #3882f6;
+    margin: 100px;
+    padding: 50px;
+    display: flex;
+    gap: 50px;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+
+.call_to_action_text h1{
+font-size: 50px;
+font-weight: bold;
+color: #ffffff;
+}
+
+.call_to_action_text p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    }
