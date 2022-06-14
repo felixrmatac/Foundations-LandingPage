@@ -47,8 +47,16 @@
     align-content: center;
 }
 
-.container-sign-up .container-latest-text button{
-    align-self: flex-end;
+.container-sign-up .container-latest-text button {
+    margin-top: 20px;
+    background-color: #19108b;
+    /* Green */
+    border: none;
+    color: rgb(240, 232, 232);
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+
 }
 
 
@@ -82,57 +90,80 @@
     height: 250px;
     width: 150px;
     border-radius: 5%;
+    margin-bottom: 15px;
 }
 
-.quote{
+.quote {
     height: 200px;
     display: flex;
     background-color: #e5e7eb;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-      
+
 }
 
-#quote{
+#quote {
     font-size: 36px;
     font-style: italic;
     font-weight: light;
-    
+
 
 }
-#citation{
+
+#citation {
     font-weight: bold;
     font-size: 24px;
     align-self: flex-end;
-     
+
 }
 
-.cont{
-    width: 800px;
+.cont {
+    width: 900px;
     display: flex;
     flex-direction: column;
 
 }
 
-.call_to_action{
-    background-color: #3882f6;
-    margin: 100px;
-    padding: 50px;
+.call_to_action {
     display: flex;
-    gap: 50px;
+    background-color: #3882f6;
     justify-items: center;
     justify-content: space-evenly;
+    width: 800px;
+    margin: 20px auto 20px auto;
+    padding: 30px;
+    border-radius: 15px;
 }
 
-.call_to_action_text h1{
-font-size: 50px;
-font-weight: bold;
-color: #ffffff;
+
+.call_to_action_text h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
 }
 
-.call_to_action_text p{
+.call_to_action_text p {
     font-size: 20px;
     font-weight: bold;
     color: #ffffff;
-    }
+}
+.call_to_action button {
+    margin-top: 20px;
+    background-color: #19108b;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: #3882f6;
+    color: white
+}
+
